@@ -1,0 +1,64 @@
+The DELight Demonstrator - A technological proof of concept for a new light
+dark matter experiment
+The search for light dark matter requires innovative detection techniques capable of
+probing weakly interacting particles with exceptional sensitivity. One promising
+approach is based on detecting elastic scattering interactions between dark matter
+particles and helium atoms in superfluid helium at millikelvin temperatures. In the
+Direct search Experiment for Light dark matter (DELight), the resulting thermal
+excitations (quasiparticles) and scintillation photons are measured with magnetic
+microcalorimeters (MMCs) fabricated on sapphire substrates that serve as absorbers
+and have phonon collectors to effectively transfer the energy to the MMC.
+As part of DELight, a pilot experiment called "The DELight demonstrator" is being set
+up and used to investigate crucial technology aspects and measure important
+parameters necessary for the construction of DELight. The demonstrator, a copper
+cell with a volume of approximately 300 ml, is first cooled to 1 K and filled with ⁴He,
+then further cooled to the base temperature of a ³He/⁴He dilution refrigerator. The
+liquid level, during both filling and operation is monitored using a coaxial cylindrical
+capacitor which is part of a tank circuit whose frequency changes with the helium
+level.
+For an initial experiment, an existing MMC detector fabricated on a 5 mm × 5 mm
+silicon substrate without a phonon collector was installed in the cell and used to
+investigate the properties of such detectors immersed in superfluid helium. A resistive
+heating element is used to generate a flux of rotons and phonons in the superfluid
+helium. We will discuss the status of development of the DELight demonstrator and
+show first results.
+
+
+
+
+Dear Axel,
+
+thank you very much for the nice abstract. It already reads very nice. Nevertheless, I have some suggestions for improvement:
+
+- In the first sentence you mention He atoms at mK temperatures. I suggest to add/rephrase such that the term „superfluid“ is explicitly mentioned.
+
+- We want to explore MMCs within the demo cell. They will not work for temperatures above 100mK (likely even above 50mK). So, we should write that we cool down the cell to temperatures below 50mK.
+
+- You mention the operation of an MMC. This is very general. Even for the DELight demonstrator, we aim for a small-scale athermal phonon detector (SAMCAL, small-area magnetic microcalorimeter ;)). We should mention this. Otherwise it sounds that we are placing an existing MMC within the cell, but this covers not the aim of the DELight demonstrator.
+
+- I prefer to avoid the sentence „MMCs have detected photons with high resolution and linearity“. Though this is a true statement, it refers to thermal MMCs. However, we are exploring athermal MMCs here. You could keep this statement, if including this difference (thermal vs. athermal).
+
+All the best
+
+Sebastian
+
+
+
+Hi Axel,
+
+thanks!
+
+I agree with Sebastian’s comments and would only want to add the following:
+
+1) I would change the title, to highlight the Demonstrator and to make it less generic. I would suggest e.g. “The DELight Demonstrator - A technological proof of concept for a new light dark matter experiment” or “Towards dark matter detection with superfluid Helium: First results from the DELight Demonstrator”. (I personally prefer the latter)
+
+2) For MMC both “metallic magnetic calorimeters" and “magnetic microcalorimeters" exist. For consistency we agreed some time ago to stick with one, which is "magnetic microcalorimeter”. So please use that for your abstract.
+
+3) Also, I would drop the term “DELight Demonstrator” somewhere. E.g.
+
+"As part of the Direct search Experiment for Light dark matter (DELight), a pilot experiment is conducted to investigate the behavior of metallic magnetic calorimeters (MMCs) submerged in liquid helium referred to as DELight Demonstrator. […] This contribution presents the Demonstrator setup […]"
+
+That’s all :)
+
+Best, Belina
+ 
