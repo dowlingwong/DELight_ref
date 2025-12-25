@@ -24,3 +24,10 @@ Reference repo for papers, slides, and project notes. Files stay in their curren
 1. Update `catalog.yaml` with any new files.
 2. Run `python3 scripts/build_index.py` (creates/updates `docs/index.md`).
 3. Open `docs/index.md` for a browsable table of everything in the catalog.
+
+## Renaming workflow (title + arXiv)
+- Propose names (fetch arXiv titles when IDs exist): `python3 scripts/propose_renames.py --use-arxiv`
+- Review `docs/rename_plan.csv`.
+- Apply safely: `python3 scripts/propose_renames.py --apply` (skips missing/target-exists/collisions).
+- Rebuild index: `python3 scripts/build_index.py`.
+- If folders change, rerun the propose/apply + build_index steps so names and index stay in sync.

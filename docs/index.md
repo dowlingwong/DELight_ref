@@ -1,9 +1,9 @@
 # DELight Reference Library Index
 
-Generated 2025-12-25 20:52 UTC from `catalog.yaml`.
+Generated 2025-12-25 21:18 UTC from `catalog.yaml`.
 
 - Entries: 19
-- Existing paths: 19
+- Existing paths: 18
 - Owner: wongdowling
 
 | Path | Title | Type | Tags | Notes | Exists |
@@ -16,7 +16,7 @@ Generated 2025-12-25 20:52 UTC from `catalog.yaml`.
 | `collaboration/thesis` | Theses | collection | collaboration, thesis |  | yes |
 | `collaboration/trigger` | Trigger studies | collection | collaboration, trigger |  | yes |
 | `computation_infrastructure` | Computation infrastructure references | collection | infrastructure |  | yes |
-| `DPG_abstract.pdf` | DPG abstract | paper | abstract |  | yes |
+| `DPG_abstract.pdf` | DPG abstract | paper | abstract |  | no |
 | `external` | External references | collection | external |  | yes |
 | `external/GGI` | GGI references | collection | external, ggi |  | yes |
 | `external/less_relevant` | Less relevant external references | collection | external, archive |  | yes |
