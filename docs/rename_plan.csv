@@ -1,0 +1,209 @@
+old_path,new_name,reason
+CNN:DeepClean/1808.07269v1.pdf,cnn_deepclean_arxiv_1808.07269v1.pdf,add arxiv id
+CNN:DeepClean/2005.06534v1.pdf,cnn_deepclean_arxiv_2005.06534v1.pdf,add arxiv id
+CNN:DeepClean/2306.11366v1.pdf,cnn_deepclean_arxiv_2306.11366v1.pdf,add arxiv id
+CNN:DeepClean/2403.18661v2.pdf,cnn_deepclean_arxiv_2403.18661v2.pdf,add arxiv id
+CNN:DeepClean/2505.21261v1.pdf,cnn_deepclean_arxiv_2505.21261v1.pdf,add arxiv id
+CNN:DeepClean/FastML Workshop 2020 Presentation.pdf,fastml_workshop_2020_presentation_cnn_deepclean.pdf,slugified
+CNN:DeepClean/FastML_2023_ML4GW.pdf,fastml_2023_ml4gw_cnn_deepclean.pdf,slugified
+CNN:DeepClean/MIT-ML-talk-2023.pdf,mit_ml_talk_2023_cnn_deepclean.pdf,slugified
+CNN:DeepClean/PhysRevD.110.063010.pdf,physrevd_110_063010_cnn_deepclean.pdf,slugified
+CNN:DeepClean/lbezerra_thesis.pdf,lbezerra_thesis_cnn_deepclean.pdf,slugified
+DPG_abstract.pdf,dpg_abstract_delight_ref.pdf,slugified
+GWAK/2309.11537v1.pdf,gwak_arxiv_2309.11537v1.pdf,add arxiv id
+GWAK/2412.19883v1.pdf,gwak_arxiv_2412.19883v1.pdf,add arxiv id
+GWAK/2503.02112v2.pdf,gwak_arxiv_2503.02112v2.pdf,add arxiv id
+"GWAK/ML@MIT presentation, Ryan Raikman.pdf",ml_mit_presentation_ryan_raikman_gwak.pdf,slugified
+GWAK/PhysRevD.111.042010.pdf,physrevd_111_042010_gwak.pdf,slugified
+PCA/1208.4122v2.pdf,1208_4122v2_pca.pdf,slugified
+PCA/1607.00834v1.pdf,pca_arxiv_1607.00834v1.pdf,add arxiv id
+PCA/1910.14261v2.pdf,pca_arxiv_1910.14261v2.pdf,add arxiv id
+PCA/Journal of the Royal Statistical Society  Series B  Statistical Methodology - 2002 - Tipping - Probabilistic Principal.pdf,journal_of_the_royal_statistical_society_series_b_statistical_methodology_2002_tipping_probabilistic_principal_pca.pdf,slugified
+PCA/hinton/PCA_encoder.pdf,pca_encoder_hinton.pdf,slugified
+PCA/hinton/hdr97.pdf,hdr97_hinton.pdf,slugified
+"SWE_MLE/A Tour Of C++ The C++ In-depth Series Tour Of C Plus Plus -- Safari, an O'Reilly Media Company_; Stroustrup, Bjarne -- C++ In-Depth Series, 2, 2018 -- 9780134997834 -- 246b8cddd307923c9a825585c701bcaa -- Anna’s Archive.pdf",a_tour_of_c_the_c_in_depth_series_tour_of_c_plus_plus_safari_an_o_reilly_media_company_stroustrup_bjarne_c_in_depth_series_2_2018_9780134997834_246b8cddd307923c9a825585c701bcaa_anna_s_archive_swe_mle.pdf,slugified
+SWE_MLE/Meta SWE PhD Intern Screen Prep Guide (4).pdf,meta_swe_phd_intern_screen_prep_guide_4_swe_mle.pdf,slugified
+SWE_MLE/d2l-en.pdf,d2l_en_swe_mle.pdf,slugified
+SWE_MLE/transformers.pdf,transformers_swe_mle.pdf,slugified
+TIDMID/1609.03499v2.pdf,tidmid_arxiv_1609.03499v2.pdf,add arxiv id
+TIDMID/2406.04378v3.pdf,tidmid_arxiv_2406.04378v3.pdf,add arxiv id
+TIDMID/2504.20398v1.pdf,tidmid_arxiv_2504.20398v1.pdf,add arxiv id
+TIDMID/NeurIPS_ML4PS_2023_131.pdf,neurips_ml4ps_2023_131_tidmid.pdf,slugified
+collaboration/L1_trigger/2204.13002v2.pdf,l1_trigger_arxiv_2204.13002v2.pdf,add arxiv id
+collaboration/L1_trigger/2212.07864v3.pdf,l1_trigger_arxiv_2212.07864v3.pdf,add arxiv id
+collaboration/L1_trigger/Wilson_2022_J._Inst._17_P07010.pdf,wilson_2022_j_inst_17_p07010_l1_trigger.pdf,slugified
+collaboration/L2_trigger/ChiaraMaglioccaReport.pdf,chiaramaglioccareport_l2_trigger.pdf,slugified
+collaboration/L2_trigger/zhao_masters.pdf,zhao_masters_l2_trigger.pdf,slugified
+collaboration/LAMCAL/044503_1_5.0135124.pdf,044503_1_5_0135124_lamcal.pdf,slugified
+collaboration/LAMCAL/162601_1_online.pdf,162601_1_online_lamcal.pdf,slugified
+collaboration/LAMCAL/2208.02013v5.pdf,lamcal_arxiv_2208.02013v5.pdf,add arxiv id
+collaboration/LAMCAL/2211.07127v2.pdf,lamcal_arxiv_2211.07127v2.pdf,add arxiv id
+collaboration/LAMCAL/2310.08698v1.pdf,lamcal_arxiv_2310.08698v1.pdf,add arxiv id
+collaboration/LAMCAL/24-09-13_DELightCollaborationMeeting_Kempf.pdf,24_09_13_delightcollaborationmeeting_kempf_lamcal.pdf,slugified
+collaboration/LAMCAL/25-01-22_TalkQT4HEP_Kempf_comp.pdf,25_01_22_talkqt4hep_kempf_comp_lamcal.pdf,slugified
+collaboration/LAMCAL/25-06-18_DELightCollabMeeting_UpdateSQUIDs.pdf,25_06_18_delightcollabmeeting_updatesquids_lamcal.pdf,slugified
+collaboration/LAMCAL/2504.20398v1.pdf,lamcal_arxiv_2504.20398v1.pdf,add arxiv id
+collaboration/LAMCAL/252603_1_5.0179862.pdf,252603_1_5_0179862_lamcal.pdf,slugified
+collaboration/LAMCAL/A_1004863823166.pdf,a_1004863823166_lamcal.pdf,slugified
+collaboration/LAMCAL/DELight_Kollab_Meeting_FW.pdf,delight_kollab_meeting_fw_lamcal.pdf,slugified
+collaboration/LAMCAL/F98.pdf,f98_lamcal.pdf,slugified
+collaboration/LAMCAL/Gastaldo_DESY.pdf,gastaldo_desy_lamcal.pdf,slugified
+collaboration/LAMCAL/Gastaldo_v4.pdf,gastaldo_v4_lamcal.pdf,slugified
+collaboration/LAMCAL/SPES_PISA_Enss.pdf,spes_pisa_enss_lamcal.pdf,slugified
+collaboration/LAMCAL/Update_WaferCalorimeter_02_07_24_Compressed.pdf,update_wafercalorimeter_02_07_24_compressed_lamcal.pdf,slugified
+collaboration/LAMCAL/collab_meeting_final_LHauswald-FWagner_final.pdf,collab_meeting_final_lhauswald_fwagner_final_lamcal.pdf,slugified
+collaboration/LAMCAL/s10909-018-1891-6.pdf,s10909_018_1891_6_lamcal.pdf,slugified
+collaboration/LAMCAL/s10909-023-03034-5.pdf,s10909_023_03034_5_lamcal.pdf,slugified
+collaboration/calibration/20250618_Melih_Calibration.pdf,20250618_melih_calibration_calibration.pdf,slugified
+collaboration/calibration/PhysRevA.56.4554.pdf,physreva_56_4554_calibration.pdf,slugified
+collaboration/collab_paper/2209.10950.pdf,collab_paper_arxiv_2209.10950.pdf,add arxiv id
+collaboration/collab_paper/2310.08512.pdf,collab_paper_arxiv_2310.08512.pdf,add arxiv id
+collaboration/collab_paper/2410.13684v1.pdf,collab_paper_arxiv_2410.13684v1.pdf,add arxiv id
+collaboration/collab_paper/DELight_OF.pdf,delight_of_collab_paper.pdf,slugified
+collaboration/collab_paper/DELight_ResearchUnit__FullProposal.pdf,delight_researchunit_fullproposal_collab_paper.pdf,slugified
+collaboration/collab_paper/Optimum_filter-based_analysis_for_the_characteriza.pdf,optimum_filter_based_analysis_for_the_characteriza_collab_paper.pdf,slugified
+collaboration/intro/2018_IDM_BvKrosigk.pdf,2018_idm_bvkrosigk_intro.pdf,slugified
+collaboration/intro/20220718_IDM_DELight.pdf,20220718_idm_delight_intro.pdf,slugified
+collaboration/intro/20240702_Invisibles24_BvKrosigk.pdf,20240702_invisibles24_bvkrosigk_intro.pdf,slugified
+collaboration/intro/2025-05-16-delight.pdf,2025_05_16_delight_intro.pdf,slugified
+collaboration/intro/2025-06-18-delight-comp.pdf,2025_06_18_delight_comp_intro.pdf,slugified
+collaboration/intro/DELight_ALPS2024.pdf,delight_alps2024_intro.pdf,slugified
+collaboration/intro/DELight_CM_240913_P6.pdf,delight_cm_240913_p6_intro.pdf,slugified
+collaboration/intro/DELight_CNNP.pdf,delight_cnnp_intro.pdf,slugified
+collaboration/intro/DELight_DPG2023_FrancescoToschi.pdf,delight_dpg2023_francescotoschi_intro.pdf,slugified
+collaboration/intro/DELight_LEE_Discrimination_2025-09-30.pdf,delight_lee_discrimination_2025_09_30_intro.pdf,slugified
+collaboration/intro/DELight_LakeLouise.pdf,delight_lakelouise_intro.pdf,slugified
+collaboration/intro/DELight_NDM_v1_.pdf,delight_ndm_v1_intro.pdf,slugified
+collaboration/intro/DELight_TAUP2023.pdf,delight_taup2023_intro.pdf,slugified
+collaboration/intro/DELight_dwong_FT_23042025.pdf,delight_dwong_ft_23042025_intro.pdf,slugified
+collaboration/intro/DPG2025_Goettingen_DELight.pdf,dpg2025_goettingen_delight_intro.pdf,slugified
+collaboration/intro/DPG_Fall_2025_DELight_Fascione.pdf,dpg_fall_2025_delight_fascione_intro.pdf,slugified
+collaboration/intro/Presentation_LEEworkshop_Hauswald.pdf,presentation_leeworkshop_hauswald_intro.pdf,slugified
+collaboration/intro/VIEWS24_26042024.pdf,views24_26042024_intro.pdf,slugified
+collaboration/intro/abstract/abstractPATRAS.pdf,abstractpatras_abstract.pdf,slugified
+collaboration/intro/collabmeeting_18p06p2025_Hauswald_final.pdf,collabmeeting_18p06p2025_hauswald_final_intro.pdf,slugified
+collaboration/intro/von Krosigk.pdf,von_krosigk_intro.pdf,slugified
+collaboration/low_bkg_env/delight_sep24_p3.pdf,delight_sep24_p3_low_bkg_env.pdf,slugified
+collaboration/low_bkg_env/sims_bkg_sens.pdf,sims_bkg_sens_low_bkg_env.pdf,slugified
+collaboration/meeting_slides/CM_SimWG_13092024.pdf,cm_simwg_13092024_meeting_slides.pdf,slugified
+collaboration/meeting_slides/DELight_20230711.pdf,delight_20230711_meeting_slides.pdf,slugified
+collaboration/meeting_slides/DELight_MMC_08082023.pdf,delight_mmc_08082023_meeting_slides.pdf,slugified
+collaboration/meeting_slides/DELight_TAUP2023.pdf,delight_taup2023_meeting_slides.pdf,slugified
+collaboration/meeting_slides/DELight_Update_March14.pdf,delight_update_march14_meeting_slides.pdf,slugified
+collaboration/meeting_slides/DELight_templatefit_results.pdf,delight_templatefit_results_meeting_slides.pdf,slugified
+collaboration/meeting_slides/MMC_meeting_13062023.pdf,mmc_meeting_13062023_meeting_slides.pdf,slugified
+collaboration/meeting_slides/Reconstruction WG 2025-2.pdf,reconstruction_wg_2025_2_meeting_slides.pdf,slugified
+collaboration/meeting_slides/Reconstruction WG.pdf,reconstruction_wg_meeting_slides.pdf,slugified
+collaboration/meeting_slides/Summary_hackathon_CM_17052023.pdf,summary_hackathon_cm_17052023_meeting_slides.pdf,slugified
+collaboration/noval_approach/1711.03121v1.pdf,noval_approach_arxiv_1711.03121v1.pdf,add arxiv id
+collaboration/noval_approach/2309.11537v1.pdf,noval_approach_arxiv_2309.11537v1.pdf,add arxiv id
+collaboration/noval_approach/2403.18661v1.pdf,noval_approach_arxiv_2403.18661v1.pdf,add arxiv id
+collaboration/noval_approach/2501.04883v2.pdf,noval_approach_arxiv_2501.04883v2.pdf,add arxiv id
+collaboration/noval_approach/2502.16982v1.pdf,noval_approach_arxiv_2502.16982v1.pdf,add arxiv id
+collaboration/noval_approach/2510.24058v1.pdf,noval_approach_arxiv_2510.24058v1.pdf,add arxiv id
+collaboration/noval_approach/LSTM_transformer/2025AugTAUP-ALETHEIA-Liao.pdf,2025augtaup_aletheia_liao_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/Delaquis_2018_J._Inst._13_P08023.pdf,delaquis_2018_j_inst_13_p08023_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/Grobov_2020_J._Phys.__Conf._Ser._1690_012013.pdf,grobov_2020_j_phys_conf_ser_1690_012013_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/Hybrid_LSTM-Transformer_Model_for_Emotion_Recognition_From_Speech_Audio_Files.pdf,hybrid_lstm_transformer_model_for_emotion_recognition_from_speech_audio_files_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/MSci_Report_02025332-10-18.pdf,msci_report_02025332_10_18_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/Sukeerthi.pdf,sukeerthi_lstm_transformer.pdf,slugified
+collaboration/noval_approach/LSTM_transformer/yu2019.pdf,yu2019_lstm_transformer.pdf,slugified
+collaboration/noval_approach/PCH_GW_ML4Jets_15_08.pdf,pch_gw_ml4jets_15_08_noval_approach.pdf,slugified
+collaboration/noval_approach/PCH_GenAi_11_4_nobackup.pdf,pch_genai_11_4_nobackup_noval_approach.pdf,slugified
+collaboration/noval_approach/position_reco/1-s2.0-S0168900225009581-main.pdf,1_s2_0_s0168900225009581_main_position_reco.pdf,slugified
+collaboration/noval_approach/pulse_ana/Estimating_Multipath_Component_Delays_with_Transfo.pdf,estimating_multipath_component_delays_with_transfo_pulse_ana.pdf,slugified
+collaboration/noval_approach/pulse_ana/nmOF.pdf,nmof_pulse_ana.pdf,slugified
+collaboration/noval_approach/s42256-025-01034-6.pdf,s42256_025_01034_6_noval_approach.pdf,slugified
+collaboration/pulse_ana/2411.10671v1.pdf,pulse_ana_arxiv_2411.10671v1.pdf,add arxiv id
+collaboration/pulse_ana/Hammann - Data reduction for a calorimetrically measured 163Ho spectrum of the ECHo-1k experiment.pdf,hammann_data_reduction_for_a_calorimetrically_measured_163ho_spectrum_of_the_echo_1k_experiment_pulse_ana.pdf,slugified
+collaboration/pulse_ana/INFIERI Poster Zaytsev.pdf,infieri_poster_zaytsev_pulse_ana.pdf,slugified
+collaboration/pulse_ana/PhysRevD.105.112006.pdf,physrevd_105_112006_pulse_ana.pdf,slugified
+collaboration/simu/20240326_DELight_Cosmic_Backgrounds.pdf,20240326_delight_cosmic_backgrounds_simu.pdf,slugified
+collaboration/simu/MC_update_26032024.pdf,mc_update_26032024_simu.pdf,slugified
+collaboration/simu/signal_partition.pdf,signal_partition_simu.pdf,slugified
+collaboration/theory/1-s2.0-0370157395000585-main.pdf,1_s2_0_0370157395000585_main_theory.pdf,slugified
+collaboration/theory/1-s2.0-S0927650596000473-main.pdf,1_s2_0_s0927650596000473_main_theory.pdf,slugified
+collaboration/theory/1604.06800v1.pdf,theory_arxiv_1604.06800v1.pdf,add arxiv id
+collaboration/theory/1611.06228.pdf,theory_arxiv_1611.06228.pdf,add arxiv id
+collaboration/theory/2105.00599v3.pdf,theory_arxiv_2105.00599v3.pdf,add arxiv id
+collaboration/theory/2212.04505v1.pdf,theory_arxiv_2212.04505v1.pdf,add arxiv id
+"collaboration/theory/Bertone G. (ed.) Particle Dark Matter (CUP, 2010)(ISBN 0521763681)(O)(767s)_PGrc_.pdf",bertone_g_ed_particle_dark_matter_cup_2010_isbn_0521763681_o_767s_pgrc_theory.pdf,slugified
+collaboration/theory/JHEP05(2022)034.pdf,jhep05_2022_034_theory.pdf,slugified
+collaboration/theory/MigdalEffect.pdf,migdaleffect_theory.pdf,slugified
+collaboration/theory/helium_detection/1611.06228v1.pdf,helium_detection_arxiv_1611.06228v1.pdf,add arxiv id
+collaboration/theory/helium_detection/1902.02361v2.pdf,helium_detection_arxiv_1902.02361v2.pdf,add arxiv id
+collaboration/theory/helium_detection/RevModPhys.49.341.pdf,revmodphys_49_341_helium_detection.pdf,slugified
+collaboration/theory/preview-9780429961410_A35102846.pdf,preview_9780429961410_a35102846_theory.pdf,slugified
+collaboration/thesis/Krantz_SQUIDE.pdf,krantz_squide_thesis.pdf,slugified
+collaboration/thesis/Kurinsky-333-346.pdf,kurinsky_333_346_thesis.pdf,slugified
+collaboration/thesis/Kurinsky.pdf,kurinsky_thesis.pdf,slugified
+collaboration/thesis/MSci_Report_02025332.pdf,msci_report_02025332_thesis.pdf,slugified
+collaboration/thesis/Sukeerthi.pdf,sukeerthi_thesis.pdf,slugified
+collaboration/thesis/Watkins_OF.pdf,watkins_of_thesis.pdf,slugified
+collaboration/thesis/basuthakur_appendix_3_NSOF.pdf,basuthakur_appendix_3_nsof_thesis.pdf,slugified
+collaboration/thesis/constantin.pdf,constantin_thesis.pdf,slugified
+collaboration/thesis/salemi-salemi-phd-physics-2022-thesis.pdf,salemi_salemi_phd_physics_2022_thesis_thesis.pdf,slugified
+collaboration/thesis/to-chin-yu.pdf,to_chin_yu_thesis.pdf,slugified
+collaboration/trigger/20240423_Sasha_-_Progress_on_Helix.pdf,20240423_sasha_progress_on_helix_trigger.pdf,slugified
+collaboration/trigger/Greta_FPGA.pdf,greta_fpga_trigger.pdf,slugified
+collaboration/trigger/PhysRevD.97.022002.pdf,physrevd_97_022002_trigger.pdf,slugified
+collaboration/trigger/nmof.pdf,nmof_trigger.pdf,slugified
+collaboration/trigger/ref27.pdf,ref27_trigger.pdf,slugified
+collaboration/trigger/zaytsev.pdf,zaytsev_trigger.pdf,slugified
+computation_infrastructure/2306.08106v1.pdf,computation_infrastructure_arxiv_2306.08106v1.pdf,add arxiv id
+computation_infrastructure/DARWINCluster.pdf,darwincluster_computation_infrastructure.pdf,slugified
+computation_infrastructure/GPU_ML_presentation.pdf,gpu_ml_presentation_computation_infrastructure.pdf,slugified
+external/2210.05576v3.pdf,external_arxiv_2210.05576v3.pdf,add arxiv id
+external/Comags.IBM.Joint_ForTomerpdf.pdf,comags_ibm_joint_fortomerpdf_external.pdf,slugified
+"external/Cryogenic Particle Detection -- D_ McCammon (auth_), Christian Enss (eds_) -- Topics in Applied Physics, Topics in Applied Physics 99, 1, -- 9783540201137 -- 8458250f47cf2af2e7aa4e14ed1fe7ca -- Anna’s Archive.pdf",cryogenic_particle_detection_d_mccammon_auth_christian_enss_eds_topics_in_applied_physics_topics_in_applied_physics_99_1_9783540201137_8458250f47cf2af2e7aa4e14ed1fe7ca_anna_s_archive_external.pdf,slugified
+"external/Detection, Estimation, and Modulation Theory, Part 1_ -- Harry L_ Van Trees, Kristine L_ Bell, Zhi Tian -- 2nd Edition, Part I, 2013 -- John Wiley & -- 9780470542965 -- 3df1946a2c2a3a8bb225c8a993a67bfc -- Anna’s Archive.pdf",detection_estimation_and_modulation_theory_part_1_harry_l_van_trees_kristine_l_bell_zhi_tian_2nd_edition_part_i_2013_john_wiley_9780470542965_3df1946a2c2a3a8bb225c8a993a67bfc_anna_s_archive_external.pdf,slugified
+external/GGI/1009.3690v1.pdf,1009_3690v1_ggi.pdf,slugified
+external/GGI/Chiara/lecture1.pdf,lecture1_chiara.pdf,slugified
+external/GGI/Chiara/lecture2.pdf,lecture2_chiara.pdf,slugified
+external/GGI/Chiara/lecture4.pdf,lecture4_chiara.pdf,slugified
+external/GGI/DESY_Workshop.pdf,desy_workshop_ggi.pdf,slugified
+external/GGI/DM-TH.pdf,dm_th_ggi.pdf,slugified
+external/GGI/DirectDarkMatter-Selvi.pdf,directdarkmatter_selvi_ggi.pdf,slugified
+external/GGI/QUPosium-2024-Gelmini.pdf,quposium_2024_gelmini_ggi.pdf,slugified
+external/GGI/peer/Bethany_Suter_GGI.pdf,bethany_suter_ggi_peer.pdf,slugified
+external/GGI/peer/Junghoon Joh_GGI.pdf,junghoon_joh_ggi_peer.pdf,slugified
+external/GGI/peer/LZ - Bethan Twigg.pdf,lz_bethan_twigg_peer.pdf,slugified
+external/GGI/peer/Slide_GGI_Lucia_Angel.pdf,slide_ggi_lucia_angel_peer.pdf,slugified
+external/GGI/peer/Student_Presentation__Vinícius.pdf,student_presentation_vin_cius_peer.pdf,slugified
+external/GGI/peer/delight_nutshell_dwong.pdf,delight_nutshell_dwong_peer.pdf,slugified
+external/LEE/Pyle_EXCESS22.pdf,pyle_excess22_lee.pdf,slugified
+external/Optimal Filtering_system_science.pdf,optimal_filtering_system_science_external.pdf,slugified
+"external/The Early Universe (Frontiers in Physics) -- Edward W_ Kolb, Michael S_ Turner -- Frontiers in Physics, 1994,2018 -- Westview Press, CRC -- 9780201116038 -- 5bc91ff474937a6f33b3d30b77750add -- Anna’s Archive.pdf",the_early_universe_frontiers_in_physics_edward_w_kolb_michael_s_turner_frontiers_in_physics_1994_2018_westview_press_crc_9780201116038_5bc91ff474937a6f33b3d30b77750add_anna_s_archive_external.pdf,slugified
+external/less_relevant/20220718_IDM_DELight.pdf,20220718_idm_delight_less_relevant.pdf,slugified
+external/less_relevant/2103.05890v2.pdf,less_relevant_arxiv_2103.05890v2.pdf,add arxiv id
+external/less_relevant/CM_Migdal.pdf,cm_migdal_less_relevant.pdf,slugified
+external/less_relevant/DM_community_report.pdf,dm_community_report_less_relevant.pdf,slugified
+external/less_relevant/Dissertation_FrancescoToschi.pdf,dissertation_francescotoschi_less_relevant.pdf,slugified
+external/less_relevant/HeRald/._1810.06283.pdf,1810_06283_herald.pdf,slugified
+external/less_relevant/HeRald/._2307.11877.pdf,2307_11877_herald.pdf,slugified
+external/less_relevant/HeRald/._Romani_LIDINE_Talk_Final.pdf,romani_lidine_talk_final_herald.pdf,slugified
+external/less_relevant/HeRald/._SPICE_HERALD_McKinsey_SNOLAB.pdf,spice_herald_mckinsey_snolab_herald.pdf,slugified
+external/less_relevant/HeRald/._seidel_sub_eV.pdf,seidel_sub_ev_herald.pdf,slugified
+external/less_relevant/HeRald/paper/1810.06283.pdf,paper_arxiv_1810.06283.pdf,add arxiv id
+external/less_relevant/HeRald/paper/2108.02176v2.pdf,paper_arxiv_2108.02176v2.pdf,add arxiv id
+external/less_relevant/HeRald/paper/2302.03869v1.pdf,paper_arxiv_2302.03869v1.pdf,add arxiv id
+external/less_relevant/HeRald/paper/2307.11877.pdf,paper_arxiv_2307.11877.pdf,add arxiv id
+external/less_relevant/HeRald/paper/2307.11877v2.pdf,paper_arxiv_2307.11877v2.pdf,add arxiv id
+external/less_relevant/HeRald/talk/HeRALD TAUP 2023.pdf,herald_taup_2023_talk.pdf,slugified
+external/less_relevant/HeRald/talk/Romani_LIDINE_Talk_Final.pdf,romani_lidine_talk_final_talk.pdf,slugified
+external/less_relevant/HeRald/talk/Romani_SPICE_EXCESS_2023_2.pdf,romani_spice_excess_2023_2_talk.pdf,slugified
+external/less_relevant/HeRald/talk/Romani_SPICE_TAUP.pdf,romani_spice_taup_talk.pdf,slugified
+external/less_relevant/HeRald/talk/SPICE_HERALD_McKinsey_SNOLAB.pdf,spice_herald_mckinsey_snolab_talk.pdf,slugified
+external/less_relevant/HeRald/talk/seidel_sub_eV.pdf,seidel_sub_ev_talk.pdf,slugified
+external/less_relevant/g4ppyy.pdf,g4ppyy_less_relevant.pdf,slugified
+external/less_relevant/phonon_shape.pdf,phonon_shape_less_relevant.pdf,slugified
+external/snolab_trigger/2212.07864v3.pdf,snolab_trigger_arxiv_2212.07864v3.pdf,add arxiv id
+external/snolab_trigger/Wilson_2022_J._Inst._17_P07010.pdf,wilson_2022_j_inst_17_p07010_snolab_trigger.pdf,slugified
+external/stat_ana.pdf,stat_ana_external.pdf,slugified
+external/stat_methods_ws2020_09_machine_learning.pdf,stat_methods_ws2020_09_machine_learning_external.pdf,slugified
+external/xenon/20221110_ramirez_nT_results_EDSU22.pdf,20221110_ramirez_nt_results_edsu22_xenon.pdf,slugified
+normalize_flow/2407.19048v1.pdf,normalize_flow_arxiv_2407.19048v1.pdf,add arxiv id
+normalize_flow/2507.08734v1.pdf,normalize_flow_arxiv_2507.08734v1.pdf,add arxiv id
+normalize_flow/2509.22561v1.pdf,normalize_flow_arxiv_2509.22561v1.pdf,add arxiv id
+normalize_flow/Chatterjee_2024_Mach._Learn.__Sci._Technol._5_045030.pdf,chatterjee_2024_mach_learn_sci_technol_5_045030_normalize_flow.pdf,slugified
+trigger/zhao_masters.pdf,zhao_masters_trigger.pdf,slugified
