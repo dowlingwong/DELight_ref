@@ -1,0 +1,100 @@
+metadata:
+  repo: DELight Reference Library
+  owner: wongdowling
+  last_updated: 2025-02-15
+
+entries:
+  - path: DPG_abstract.pdf
+    title: DPG abstract
+    type: paper
+    tags: [abstract]
+
+  - path: "CNN:DeepClean/"
+    title: CNN DeepClean collection
+    type: collection
+    tags: [cnn, deepclean]
+
+  - path: GWAK/
+    title: GWAK references
+    type: collection
+    tags: [gwa, trigger]
+
+  - path: PCA/
+    title: PCA papers
+    type: collection
+    tags: [pca]
+
+  - path: SWE_MLE/
+    title: SWE and MLE references
+    type: collection
+    tags: [software, mle]
+
+  - path: TIDMID/
+    title: TIDMID references
+    type: collection
+    tags: [tidmid]
+
+  - path: normalize_flow/
+    title: Normalizing flow papers
+    type: collection
+    tags: [normalizing-flow]
+
+  - path: trigger/
+    title: Trigger references
+    type: collection
+    tags: [trigger]
+
+  - path: computation_infrastructure/
+    title: Computation infrastructure references
+    type: collection
+    tags: [infrastructure]
+
+  - path: collaboration/
+    title: Collaboration materials (intro, theory, trigger, calibration, meeting slides)
+    type: collection
+    tags: [collaboration]
+
+  - path: collaboration/intro/
+    title: Collaboration intro materials
+    type: collection
+    tags: [collaboration, intro]
+
+  - path: collaboration/theory/
+    title: Collaboration theory papers
+    type: collection
+    tags: [collaboration, theory]
+
+  - path: collaboration/trigger/
+    title: Trigger studies
+    type: collection
+    tags: [collaboration, trigger]
+
+  - path: collaboration/meeting_slides/
+    title: Collaboration meeting slides
+    type: collection
+    tags: [collaboration, slides]
+
+  - path: collaboration/thesis/
+    title: Theses
+    type: collection
+    tags: [collaboration, thesis]
+
+  - path: external/
+    title: External references
+    type: collection
+    tags: [external]
+
+  - path: external/GGI/
+    title: GGI references
+    type: collection
+    tags: [external, ggi]
+
+  - path: external/less_relevant/
+    title: Less relevant external references
+    type: collection
+    tags: [external, archive]
+
+  - path: external/snolab_trigger/
+    title: SNOLAB trigger references
+    type: collection
+    tags: [external, trigger]
