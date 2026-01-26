@@ -1,0 +1,62 @@
+2026-01-26 15:11:47,406 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-26 15:11:47,407 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-26 15:11:48,998 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-01-26 15:11:48,998 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-01-26 15:11:48,998 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-01-26 15:11:48,998 - lightrag - INFO - Reranking is disabled
+2026-01-26 15:12:32,356 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-26 15:12:32,356 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-26 15:12:32,472 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-01-26 15:12:32,472 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-01-26 15:12:32,472 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-01-26 15:12:32,472 - lightrag - INFO - Reranking is disabled
+2026-01-26 15:12:33,022 - lightrag - INFO - [] Created new empty graph file: /home/dowling/Documents/DELight_ref/rag_storage/graph_chunk_entity_relation.graphml
+2026-01-26 15:12:52,463 - lightrag - INFO - Ollama LLM Options: {}
+2026-01-26 15:12:52,463 - lightrag - INFO - Ollama Embedding Options: {}
+2026-01-26 15:12:52,576 - lightrag - INFO - Embedding config: binding=ollama model=None embedding_dim=1024 max_token_size=8192
+2026-01-26 15:12:52,576 - lightrag - INFO - Send embedding dimension: False by env var (dimensions=1024, has_param=True, binding=ollama)
+2026-01-26 15:12:52,576 - lightrag - INFO - Embedding max_token_size: 8192 (from ollama provider default)
+2026-01-26 15:12:52,577 - lightrag - INFO - Reranking is disabled
+2026-01-26 15:12:53,092 - lightrag - INFO - [] Created new empty graph file: /home/dowling/Documents/DELight_ref/rag_storage/graph_chunk_entity_relation.graphml
+2026-01-26 15:12:53,205 - lightrag - INFO - WebUI assets mounted at /webui
+2026-01-26 15:12:53,239 - uvicorn.error - INFO - Started server process [26777]
+2026-01-26 15:12:53,239 - uvicorn.error - INFO - Waiting for application startup.
+2026-01-26 15:12:53,240 - lightrag - INFO - [] Process 26777 KV load full_docs with 0 records
+2026-01-26 15:12:53,240 - lightrag - INFO - [] Process 26777 KV load text_chunks with 0 records
+2026-01-26 15:12:53,240 - lightrag - INFO - [] Process 26777 KV load full_entities with 0 records
+2026-01-26 15:12:53,240 - lightrag - INFO - [] Process 26777 KV load full_relations with 0 records
+2026-01-26 15:12:53,240 - lightrag - INFO - [] Process 26777 KV load entity_chunks with 0 records
+2026-01-26 15:12:53,241 - lightrag - INFO - [] Process 26777 KV load relation_chunks with 0 records
+2026-01-26 15:12:53,241 - lightrag - INFO - [] Process 26777 KV load llm_response_cache with 0 records
+2026-01-26 15:12:53,241 - lightrag - INFO - [] Process 26777 doc status load doc_status with 0 records
+2026-01-26 15:12:53,241 - uvicorn.error - INFO - Application startup complete.
+2026-01-26 15:12:53,243 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-01-26 15:13:05,907 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET / HTTP/1.1" 307
+2026-01-26 15:13:05,915 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET /webui HTTP/1.1" 307
+2026-01-26 15:13:05,943 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET /webui/assets/index-8fiWFYnN.js HTTP/1.1" 200
+2026-01-26 15:13:05,951 - uvicorn.access - INFO - 127.0.0.1:40152 - "GET /webui/assets/index-DS3Wz1EX.css HTTP/1.1" 200
+2026-01-26 15:13:06,483 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-01-26 15:13:06,491 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET /auth-status HTTP/1.1" 200
+2026-01-26 15:13:08,563 - uvicorn.access - INFO - 127.0.0.1:40136 - "GET /docs HTTP/1.1" 200
+2026-01-26 15:13:08,607 - uvicorn.access - INFO - 127.0.0.1:40162 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-01-26 15:13:08,608 - lightrag - INFO - [] Subgraph query successful | Node count: 0 | Edge count: 0
+2026-01-26 15:13:08,608 - uvicorn.access - INFO - 127.0.0.1:40176 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-01-26 15:13:08,632 - uvicorn.access - INFO - 127.0.0.1:40176 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-01-26 15:13:08,633 - uvicorn.access - INFO - 127.0.0.1:40152 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-01-26 15:13:08,941 - uvicorn.access - INFO - 127.0.0.1:40176 - "GET /openapi.json HTTP/1.1" 200
+2026-01-26 15:14:55,676 - uvicorn.access - INFO - 127.0.0.1:47422 - "POST /documents/scan HTTP/1.1" 200
+2026-01-26 15:14:55,681 - lightrag - INFO - Found 0 files to index.
+2026-01-26 15:14:55,681 - lightrag - INFO - No upload file found, check if there are any documents in the queue...
+2026-01-26 15:14:55,682 - lightrag - INFO - No documents to process
+2026-01-26 15:14:57,017 - uvicorn.access - INFO - 127.0.0.1:50070 - "GET /webui/assets/index-DS3Wz1EX.css HTTP/1.1" 304
+2026-01-26 15:14:57,018 - uvicorn.access - INFO - 127.0.0.1:47422 - "GET /webui/assets/index-8fiWFYnN.js HTTP/1.1" 304
+2026-01-26 15:14:58,317 - uvicorn.access - INFO - 127.0.0.1:47422 - "GET /docs HTTP/1.1" 200
+2026-01-26 15:14:58,346 - uvicorn.access - INFO - 127.0.0.1:50070 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-01-26 15:14:58,410 - uvicorn.access - INFO - 127.0.0.1:50070 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 304
+2026-01-26 15:14:58,410 - uvicorn.access - INFO - 127.0.0.1:47422 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 304
+2026-01-26 15:14:58,651 - uvicorn.access - INFO - 127.0.0.1:47422 - "GET /openapi.json HTTP/1.1" 200
+2026-01-26 15:19:58,632 - uvicorn.error - INFO - Shutting down
+2026-01-26 15:19:58,733 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-01-26 15:19:58,733 - lightrag - INFO - Successfully finalized 12 storages
+2026-01-26 15:19:58,734 - uvicorn.error - INFO - Application shutdown complete.
+2026-01-26 15:19:58,734 - uvicorn.error - INFO - Finished server process [26777]
