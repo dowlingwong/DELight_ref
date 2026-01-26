@@ -18,6 +18,7 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable, List, Sequence
+import gc
 
 
 def _repo_root() -> Path:
@@ -201,34 +202,43 @@ def build_index(args: argparse.Namespace) -> None:
         return
 
     total_chunks = 0
-    for pdf_path in pdf_paths:
-        rel_path = _normalize_path(pdf_path, root)
-        for page_idx, page_text in enumerate(_iter_pdf_pages(pdf_path)):
-            chunks = _chunk_text(page_text, args.chunk_size, args.chunk_overlap)
-            if not chunks:
-                continue
-            ids: List[str] = []
-            documents: List[str] = []
-            metadatas: List[dict] = []
-            for chunk_idx, chunk in enumerate(chunks):
-                chunk_id = f"{rel_path}:{page_idx}:{chunk_idx}:{_sha1(chunk)[:12]}"
-                ids.append(chunk_id)
-                documents.append(chunk)
-                metadatas.append(
-                    {
-                        "source": rel_path,
-                        "page": page_idx,
-                        "chunk": chunk_idx,
-                        "sha1": _sha1(chunk),
-                    }
+    batch_size = max(1, args.pdf_batch_size)
+    for batch_start in range(0, len(pdf_paths), batch_size):
+        batch = pdf_paths[batch_start : batch_start + batch_size]
+        if args.max_files is not None:
+            remaining = args.max_files - batch_start
+            if remaining <= 0:
+                break
+            batch = batch[:remaining]
+        for pdf_path in batch:
+            rel_path = _normalize_path(pdf_path, root)
+            for page_idx, page_text in enumerate(_iter_pdf_pages(pdf_path)):
+                chunks = _chunk_text(page_text, args.chunk_size, args.chunk_overlap)
+                if not chunks:
+                    continue
+                ids: List[str] = []
+                documents: List[str] = []
+                metadatas: List[dict] = []
+                for chunk_idx, chunk in enumerate(chunks):
+                    chunk_id = f"{rel_path}:{page_idx}:{chunk_idx}:{_sha1(chunk)[:12]}"
+                    ids.append(chunk_id)
+                    documents.append(chunk)
+                    metadatas.append(
+                        {
+                            "source": rel_path,
+                            "page": page_idx,
+                            "chunk": chunk_idx,
+                            "sha1": _sha1(chunk),
+                        }
+                    )
+                total_chunks += _batched_upsert(
+                    collection,
+                    ids,
+                    documents,
+                    metadatas,
+                    batch_size=args.batch_size,
                 )
-            total_chunks += _batched_upsert(
-                collection,
-                ids,
-                documents,
-                metadatas,
-                batch_size=args.batch_size,
-            )
+        gc.collect()
 
     print(
         "Indexed PDFs.",
@@ -259,6 +269,18 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=32,
         help="Number of chunks to upsert per batch (lower to reduce RAM).",
+    )
+    parser.add_argument(
+        "--pdf-batch-size",
+        type=int,
+        default=5,
+        help="Number of PDFs to process per batch (lower to reduce RAM).",
+    )
+    parser.add_argument(
+        "--max-files",
+        type=int,
+        default=None,
+        help="Optional cap on number of PDFs to index.",
     )
     parser.add_argument(
         "--exclude",
