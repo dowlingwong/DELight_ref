@@ -51,13 +51,30 @@ def slugify(text: str) -> str:
 
 
 def dedup_slug(text: str) -> str:
-    """Remove consecutive duplicate tokens in an underscore-separated slug."""
+    """Collapse repeated tokens and immediately repeated token sequences."""
     tokens = [t for t in text.split("_") if t]
-    dedup = []
+    dedup: List[str] = []
     for t in tokens:
         if not dedup or dedup[-1] != t:
             dedup.append(t)
-    return "_".join(dedup)
+    tokens = dedup
+
+    # Remove immediate repeats of short n-grams (e.g., "cnn_deepclean" repeated).
+    changed = True
+    while changed:
+        changed = False
+        for n in (4, 3, 2):
+            i = 0
+            new: List[str] = []
+            while i < len(tokens):
+                if i >= n and tokens[i : i + n] == tokens[i - n : i]:
+                    i += n
+                    changed = True
+                    continue
+                new.append(tokens[i])
+                i += 1
+            tokens = new
+    return "_".join(tokens)
 
 
 @functools.lru_cache(maxsize=256)
@@ -97,8 +114,11 @@ def suggest_for_pdf(pdf_path: Path, use_arxiv: bool = False) -> Tuple[str, str, 
         parts = []
         if title_part:
             parts.append(title_part)
-        if context and (not title_part or context.lower() not in title_part.lower()):
-            parts.append(context)
+        if context:
+            context_slug = slugify(context)
+            title_part_slug = slugify(title_part) if title_part else ""
+            if not title_part_slug or context_slug not in title_part_slug:
+                parts.append(context)
         base_title = "_".join(parts) if parts else stem
         title_slug = dedup_slug(slugify(base_title))
         if arxiv_id and reason != "arxiv title":

@@ -1,9 +1,9 @@
 # DELight Reference Library Index
 
-Generated 2025-12-25 21:18 UTC from `catalog.yaml`.
+Generated 2026-01-30 00:07 UTC from `catalog.yaml`.
 
 - Entries: 19
-- Existing paths: 18
+- Existing paths: 17
 - Owner: wongdowling
 
 | Path | Title | Type | Tags | Notes | Exists |
@@ -22,7 +22,7 @@ Generated 2025-12-25 21:18 UTC from `catalog.yaml`.
 | `external/less_relevant` | Less relevant external references | collection | external, archive |  | yes |
 | `external/snolab_trigger` | SNOLAB trigger references | collection | external, trigger |  | yes |
 | `GWAK` | GWAK references | collection | gwa, trigger |  | yes |
-| `normalize_flow` | Normalizing flow papers | collection | normalizing-flow |  | yes |
+| `normalize_flow` | Normalizing flow papers | collection | normalizing-flow |  | no |
 | `PCA` | PCA papers | collection | pca |  | yes |
 | `SWE_MLE` | SWE and MLE references | collection | software, mle |  | yes |
 | `TIDMID` | TIDMID references | collection | tidmid |  | yes |
