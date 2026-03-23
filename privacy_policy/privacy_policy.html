@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – Scientific Computing Service (KIT)</title>
+  <style>
+    :root { --maxw: 980px; --fg: #111; --muted: #555; --bg: #fff; --border: #ddd; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; margin: 0; background: var(--bg); color: var(--fg); }
+    header, main, footer { max-width: var(--maxw); margin: 0 auto; padding: 24px 16px; }
+    header { border-bottom: 1px solid var(--border); }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; }
+    .meta { color: var(--muted); margin: 0; }
+    h2 { margin-top: 28px; font-size: 1.25rem; }
+    h3 { margin-top: 18px; font-size: 1.05rem; }
+    p, li { line-height: 1.5; }
+    code { background: #f6f6f6; padding: 0 4px; border-radius: 4px; }
+    .box { border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; background: #fafafa; }
+    table { width: 100%; border-collapse: collapse; margin: 10px 0 0; }
+    th, td { border: 1px solid var(--border); padding: 10px; vertical-align: top; text-align: left; }
+    th { background: #f2f2f2; }
+    footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy – Scientific Computing Service</h1>
+    <p class="meta">
+      Information pursuant to Article 13 GDPR for the use of an academic scientific computing and storage service operated by Karlsruhe Institute of Technology (KIT).
+    </p>
+  </header>
+
+  <main>
+    <section class="box" aria-label="Scope summary">
+      <p>
+        This privacy policy applies to the processing of personal data in connection with the operation and use of an
+        academic scientific computing service (the “Service”), including authentication via federated identity (EGI AAI),
+        user account management, job scheduling (e.g., HTCondor), and technical operation/security logging.
+      </p>
+      <p>
+        The Service is intended for scientific research and collaboration among KIT and participating academic institutions.
+      </p>
+    </section>
+
+    <h2>1. Controller and Data Protection Officer</h2>
+    <p><strong>Controller</strong> (Art. 4(7) GDPR):</p>
+    <p>
+      Karlsruhe Institute of Technology (KIT)<br />
+      Kaiserstraße 12<br />
+      76131 Karlsruhe, Germany<br />
+      Phone: +49 721 608-0<br />
+      Email: <a href="mailto:info@kit.edu">info@kit.edu</a>
+    </p>
+    <h3>Service Owner and Operational Contact</h3>
+    <p>
+    The Service is operated by the Institute for Experimental Particle Physics (ETP),
+    Karlsruhe Institute of Technology (KIT).
+    </p>
+    <p>
+    <strong>Operational Contact:</strong><br />
+    Dowling Wong<br />
+    Institute for Experimental Particle Physics (ETP), KIT<br />
+    Email: <a href="mailto:dowling.wong@kit.edu">dowling.wong@kit.edu</a>
+    </p>
+
+
+    <h2>2. Purposes of Processing and Legal Bases</h2>
+    <p>The Service processes personal data for the following purposes:</p>
+    <ul>
+      <li><strong>Authentication and authorization</strong> to grant access to the Service and its resources.</li>
+      <li><strong>Operation of user accounts</strong> (provisioning, role/group assignment, deprovisioning).</li>
+      <li><strong>Technical operation</strong> of compute and storage services, including scheduling and execution of jobs.</li>
+      <li><strong>Resource accounting and capacity planning</strong> (e.g., CPU time, memory usage, storage usage), including grant- and project-related reporting obligations.</li>
+      <li><strong>IT security</strong>, misuse prevention, troubleshooting, and incident handling.</li>
+    </ul>
+    <p>
+      <strong>Legal bases</strong> (depending on the specific processing activity) include:
+      performance of a task carried out in the public interest (Art. 6(1)(e) GDPR) and, where applicable,
+      legitimate interests in maintaining secure and reliable IT operations (Art. 6(1)(f) GDPR).
+      Applicable German state and institutional regulations (e.g., higher education and KIT legal framework) may apply in conjunction.
+    </p>
+
+    <h2>3. Categories of Personal Data Processed</h2>
+
+    <h3>3.1 Federated Identity Data (EGI AAI)</h3>
+    <p>
+      When you authenticate via EGI AAI, KIT receives a subset of identity attributes released by the federation and/or your home institution.
+      These may include:
+    </p>
+    <ul>
+      <li>Name</li>
+      <li>Email address</li>
+      <li>Affiliation (institution)</li>
+      <li>Federated unique identifier (e.g., persistent subject identifier)</li>
+      <li>Group/VO membership attributes relevant for authorization</li>
+    </ul>
+
+    <h3>3.2 Local Account Data</h3>
+    <ul>
+      <li>Service username / local account identifier</li>
+      <li>SSH public keys (where used)</li>
+      <li>Authorization metadata (roles, groups, project/VO allocations)</li>
+      <li>Contact information necessary for account administration (typically email)</li>
+    </ul>
+
+    <h3>3.3 Resource Usage and Accounting Data</h3>
+    <p>
+      For fair resource allocation, stability, and reporting, the Service processes technical usage data such as:
+    </p>
+    <ul>
+      <li>Job submission metadata (timestamps, job IDs, queue/project association)</li>
+      <li>CPU usage (e.g., CPU time)</li>
+      <li>RAM usage</li>
+      <li>Runtime duration</li>
+      <li>Storage usage (quotas, consumption)</li>
+      <li>Service-level accounting metadata (e.g., allocation units for projects/VOs)</li>
+    </ul>
+    <p>
+      The Service does not use resource-usage data for profiling, automated decision-making, or evaluation of individuals beyond what is necessary for operation,
+      fairness, and security (e.g., detecting abuse or misconfiguration).
+    </p>
+
+    <h3>3.4 Security and System Logs</h3>
+    <p>
+      To ensure secure and reliable operations, the Service processes security and system logs, which may include:
+    </p>
+    <ul>
+      <li>Login events (timestamps, source IP address)</li>
+      <li>Failed authentication attempts</li>
+      <li>Administrative and service health events relevant to incident response</li>
+      <li>Scheduler-related metadata required for troubleshooting and integrity (e.g., HTCondor events)</li>
+    </ul>
+
+    <h2>4. Integration with Research Infrastructure</h2>
+
+    <h3>4.1 HTCondor and GridKa</h3>
+    <p>
+      The Service may use HTCondor to schedule and execute jobs, and jobs may be submitted to or executed on connected research infrastructure
+      (e.g., GridKa) depending on project configuration and authorization.
+    </p>
+    <p>
+      Where jobs are executed on external infrastructure, relevant job/accounting metadata may be exchanged as required for technical operation and accounting.
+      External infrastructure operators may maintain their own logs and accounting records under their own responsibility.
+    </p>
+
+    <h3>4.2 CVMFS</h3>
+    <p>
+      The Service may use CVMFS (CernVM File System) for <strong>read-only</strong> software distribution. CVMFS is used to deliver software stacks and environments.
+      Research data is not stored in CVMFS by the Service.
+    </p>
+
+    <h2>5. Research Data and User Responsibility</h2>
+    <p>
+      The Service is intended for scientific research data. Users are responsible for ensuring that uploaded and processed content complies with applicable laws and policies.
+      In particular, the Service is <strong>not intended</strong> for storing or processing special categories of personal data (Art. 9 GDPR) unless explicitly authorized and governed
+      by an appropriate legal basis and safeguards.
+    </p>
+    <p>
+      KIT does not routinely inspect or evaluate research content. Processing of research content is limited to technical storage, access, and computation requested by users.
+    </p>
+
+    <h2>6. Recipients of Personal Data</h2>
+    <p>Personal data may be accessed by or disclosed to:</p>
+    <ul>
+      <li>Authorized KIT personnel responsible for operating and securing the Service (e.g., system administration, IT security).</li>
+      <li>Federated authentication infrastructure (EGI AAI) as part of the authentication flow (as applicable).</li>
+      <li>Connected research infrastructure operators (e.g., GridKa) where job execution requires exchange of operational and accounting metadata.</li>
+    </ul>
+    <p>
+      Personal data is not sold and is not disclosed to commercial third parties for marketing purposes.
+    </p>
+
+    <h2>7. Storage Duration</h2>
+    <table aria-label="Retention table">
+      <thead>
+        <tr>
+          <th>Data category</th>
+          <th>Typical retention</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Federated identity attributes</td>
+          <td>For the duration of the account / authorization relationship, as required for access management</td>
+          <td>Authentication, authorization, account lifecycle</td>
+        </tr>
+        <tr>
+          <td>Local account data (e.g., username, SSH keys, roles)</td>
+          <td>For the duration of the account; deleted or anonymized upon account removal where feasible</td>
+          <td>Account administration, access control</td>
+        </tr>
+        <tr>
+          <td>Security and system logs</td>
+          <td>&lt; 90 days (unless required longer for incident handling)</td>
+          <td>IT security, troubleshooting, incident response</td>
+        </tr>
+        <tr>
+          <td>Resource usage / accounting records</td>
+          <td>Stored at KIT for operational purposes and reporting; retention is limited to what is necessary for these purposes</td>
+          <td>Fairness, capacity planning, operational reporting</td>
+        </tr>
+        <tr>
+          <td>Research data stored by users</td>
+          <td>According to project configuration and user actions (e.g., deletion); not intended as long-term archival</td>
+          <td>Scientific computing and storage</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>No backup/archival guarantee:</strong> The Service does not provide a general long-term backup or archival guarantee.
+      Users remain responsible for maintaining appropriate copies of valuable research data according to their project needs.
+    </p>
+
+    <h2>8. Security of Processing</h2>
+    <p>
+      KIT applies appropriate technical and organizational measures to protect the confidentiality, integrity, and availability of the Service, including (as applicable):
+    </p>
+    <ul>
+      <li>Encrypted transmission (e.g., SSH/TLS) for administrative and user access</li>
+      <li>Role-based access control and least-privilege administration</li>
+      <li>Firewalling, network segmentation, and system hardening</li>
+      <li>Monitoring for security-relevant events and abuse prevention</li>
+      <li>Log retention limited to what is necessary</li>
+    </ul>
+
+    <h2>9. Your Rights</h2>
+    <p>
+      Under GDPR, you have rights regarding your personal data, including:
+    </p>
+    <ul>
+      <li>Right of access (Art. 15 GDPR)</li>
+      <li>Right to rectification (Art. 16 GDPR)</li>
+      <li>Right to erasure (Art. 17 GDPR), where applicable</li>
+      <li>Right to restriction of processing (Art. 18 GDPR)</li>
+      <li>Right to data portability (Art. 20 GDPR), where applicable</li>
+      <li>Right to object (Art. 21 GDPR), where applicable</li>
+    </ul>
+    <p>
+      If processing is based on consent in a specific context, you may withdraw consent at any time with effect for the future (Art. 7(3) GDPR).
+    </p>
+
+    <h2>10. Right to Lodge a Complaint</h2>
+    <p>
+      You have the right to lodge a complaint with a supervisory authority (Art. 77 GDPR). For KIT, the competent supervisory authority is:
+    </p>
+    <p>
+      Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW)
+    </p>
+
+    <h2>11. Changes to this Privacy Policy</h2>
+    <p>
+      We may update this privacy policy to reflect changes in the Service, legal requirements, or operational needs.
+      The current version will be made available through the Service website or documentation.
+    </p>
+  </main>
+
+  <footer>
+    <p>
+      This document is provided for transparency and informational purposes. For questions about data protection related to this Service,
+      please contact the KIT Data Protection Officer.
+    </p>
+  </footer>
+</body>
+</html>
